@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Geometry Shapes</title>
+  <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+  <h1>3D Geometry Shapes</h1>
+  <div class="grid-container">
+    <!-- Blocks for 9 Shapes -->
+    <div class="block" id="cube">
+      <h2>Cube</h2>
+      <div class="shape cube-shape"></div>
+      <label>Side Length:</label>
+      <input type="number" id="cube-input" placeholder="Enter side">
+      <p>Surface Area: <span id="cube-sa">0</span></p>
+      <p>Volume: <span id="cube-vol">0</span></p>
+    </div>
+
+    <div class="block" id="sphere">
+      <h2>Sphere</h2>
+      <div class="shape sphere-shape"></div>
+      <label>Radius:</label>
+      <input type="number" id="sphere-input" placeholder="Enter radius">
+      <p>Surface Area: <span id="sphere-sa">0</span></p>
+      <p>Volume: <span id="sphere-vol">0</span></p>
+    </div>
+
+    <div class="block" id="cylinder">
+      <h2>Cylinder</h2>
+      <div class="shape cylinder-shape"></div>
+      <label>Radius:</label>
+      <input type="number" id="cylinder-radius" placeholder="Radius">
+      <label>Height:</label>
+      <input type="number" id="cylinder-height" placeholder="Height">
+      <p>Surface Area: <span id="cylinder-sa">0</span></p>
+      <p>Volume: <span id="cylinder-vol">0</span></p>
+    </div>
+
+    <div class="block" id="cone">
+      <h2>Cone</h2>
+      <div class="shape cone-shape"></div>
+      <label>Radius:</label>
+      <input type="number" id="cone-radius" placeholder="Radius">
+      <label>Height:</label>
+      <input type="number" id="cone-height" placeholder="Height">
+      <p>Surface Area: <span id="cone-sa">0</span></p>
+      <p>Volume: <span id="cone-vol">0</span></p>
+    </div>
+
+    <div class="block" id="pyramid">
+      <h2>Pyramid</h2>
+      <div class="shape pyramid-shape"></div>
+      <label>Base Length:</label>
+      <input type="number" id="pyramid-base" placeholder="Base Length">
+      <label>Height:</label>
+      <input type="number" id="pyramid-height" placeholder="Height">
+      <p>Surface Area: <span id="pyramid-sa">0</span></p>
+      <p>Volume: <span id="pyramid-vol">0</span></p>
+    </div>
+
+    <div class="block" id="hemisphere">
+      <h2>Hemisphere</h2>
+      <div class="shape hemisphere-shape"></div>
+      <label>Radius:</label>
+      <input type="number" id="hemisphere-radius" placeholder="Radius">
+      <p>Surface Area: <span id="hemisphere-sa">0</span></p>
+      <p>Volume: <span id="hemisphere-vol">0</span></p>
+    </div>
+
+    <div class="block" id="torus">
+      <h2>Torus</h2>
+      <div class="shape torus-shape"></div>
+      <label>Radius:</label>
+      <input type="number" id="torus-radius" placeholder="Radius">
+      <label>Tube Radius:</label>
+      <input type="number" id="torus-tube-radius" placeholder="Tube Radius">
+      <p>Surface Area: <span id="torus-sa">0</span></p>
+      <p>Volume: <span id="torus-vol">0</span></p>
+    </div>
+
+    <div class="block" id="ellipsoid">
+      <h2>Ellipsoid</h2>
+      <div class="shape ellipsoid-shape"></div>
+      <label>Radius 1:</label>
+      <input type="number" id="ellipsoid-radius1" placeholder="Radius 1">
+      <label>Radius 2:</label>
+      <input type="number" id="ellipsoid-radius2" placeholder="Radius 2">
+      <label>Radius 3:</label>
+      <input type="number" id="ellipsoid-radius3" placeholder="Radius 3">
+      <p>Surface Area: <span id="ellipsoid-sa">0</span></p>
+      <p>Volume: <span id="ellipsoid-vol">0</span></p>
+    </div>
+
+    <div class="block" id="octahedron">
+      <h2>Octahedron</h2>
+      <div class="shape octahedron-shape"></div>
+      <label>Edge Length:</label>
+      <input type="number" id="octahedron-edge" placeholder="Edge Length">
+      <p>Surface Area: <span id="octahedron-sa">0</span></p>
+      <p>Volume: <span id="octahedron-vol">0</span></p>
+    </div>
+  </div>
+
+  <script src="task4.js"></script>
+</body>
+</html>
