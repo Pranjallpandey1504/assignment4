@@ -6,11 +6,11 @@ const resumeData = {
     contact: "9428832619",
     education: [
         { degree: "B.Tech in IT", institution: "Parul University", year: "2022-Present" },
-        { degree: "12th Grade", institution: "Kendriya Vidyalaya No. 3", year: "2019", percentage: "76%" },
-        { degree: "10th Grade", institution: "Kendriya Vidyalaya No. 3", year: "2017", percentage: "90.4%" }
+        { degree: "12th Grade", institution: "Kendriya Vidyalaya No. 3", year: "2022", percentage: "80%" },
+        { degree: "10th Grade", institution: "Kendriya Vidyalaya No. 3", year: "2020", percentage: "90.4%" }
     ],
-    skills: ["Web Development (HTML, CSS, JavaScript, React)", "UI/UX Design", "Python, C, Java"],
-    experience: ["Intern at XYZ Company (2023)", "Event Organizer at CDC Funfest (2022)"]
+    skills: ["Web Development ", "UI/UX Design", "Python, C, Java"],
+    experience: ["Intern at parul university", "Event Organizer at CDC Funfest and tech expo "]
 };
 
 function createResume() {
@@ -20,7 +20,6 @@ function createResume() {
     resumeElement.innerHTML = `
         <header>
             <h1>${resumeData.name}</h1>
-            <p>${resumeData.age} Indian Girl</p>
             <p>Email: ${resumeData.email} | Contact: ${resumeData.contact}</p>
         </header>
     `;
