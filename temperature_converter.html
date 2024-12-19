@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Converter</title>
+    <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Dynamic Converter</h2>
+
+        <!-- Small Message -->
+        <p class="message">Please choose a conversion type to begin.</p>
+        
+        <!-- Type of Conversion -->
+        <label for="conversionType">Select Conversion Type:</label>
+        <select id="conversionType" onchange="populateUnits()">
+            <option value="">-- Select Type --</option>
+            <option value="Temperature">Temperature</option>
+            <option value="Mass">Mass</option>
+            <option value="Length">Length</option>
+        </select>
+        
+        <!-- Input Value -->
+        <label for="inputValue">Enter Value:</label>
+        <input type="number" id="inputValue" placeholder="Enter value" step="any">
+
+        <!-- From and To Units in Same Row -->
+        <div class="unit-row">
+            <div>
+                <label for="fromUnit">From:</label>
+                <select id="fromUnit"></select>
+            </div>
+            <div>
+                <label for="toUnit">To:</label>
+                <select id="toUnit"></select>
+            </div>
+        </div>
+
+        <!-- Convert Button -->
+        <button onclick="convert()">Convert</button>
+
+        <!-- Result -->
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="tempconv.js"></script>
+</body>
+</html>

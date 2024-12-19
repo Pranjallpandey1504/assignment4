@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: #1a1a2e;
+    color: #e0f7fa;
+    text-align: center;
+}
+
+.container {
+    background: #16213e; /* Dark blue background for the box */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8); /* Black shadow */
+    border: 2px solid #0fbcf9; /* Light blue border */
+}
+
+h1 {
+    color: #0fbcf9; /* Light blue title */
+}
+
+p {
+    color: #4ecdc4; /* Teal for the instructions */
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0fbcf9; /* Light blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #4ecdc4; /* Teal hover effect */
+}
+
+.result {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #76c7c0; /* Aqua for the result */
+}

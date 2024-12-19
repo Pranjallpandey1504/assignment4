@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    background: #000; /* Black background for the box */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8); /* Black shadow */
+    border: 2px solid #ffbf00; /* Yellow border */
+}
+
+h2 {
+    color: #ffbf00; /* Yellow title */
+}
+
+.message {
+    font-size: 0.9em;
+    color: #ffc107; /* Soft yellow for the message */
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px auto 5px;
+    color: #fff; /* White labels */
+    font-weight: bold;
+}
+
+select, input {
+    display: block;
+    margin: 5px auto;
+    width: 90%;
+    padding: 8px;
+    border: 2px solid #ffbf00;
+    border-radius: 5px;
+    background-color: #222; /* Dark input background */
+    color: #fff; /* White text in input and select */
+    font-size: 1em;
+}
+
+.unit-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.unit-row div {
+    width: 45%;
+}
+
+button {
+    background-color: #ffbf00; /* Yellow button */
+    color: black; /* Black text */
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #ffc107; /* Brighter yellow on hover */
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #28a745; /* Green result text */
+    font-weight: bold;
+}
